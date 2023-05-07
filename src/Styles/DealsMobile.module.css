@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.main{
+    background-color: rgb(234, 239, 243);
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    height: 135px
+}
+.main>img{
+    position: relative;
+    top: -18px;
+    width: 6rem;
+    z-index: 0;
+}
+.main>div:nth-child(1)>p{
+    position: relative;
+    font-size: 10px;
+    color: white;
+    background-color: #5d61d8;
+    width: 70%;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main>div:nth-child(3){
+    display: flex;
+    justify-content: end;
+    margin: 0.2rem;
+}
+.main>div:nth-child(3)>p{
+    position: relative;
+    top: -18px;
+    width:min-content;
+    background-color: white;
+    padding: 0.1rem 0.3rem;
+    margin: 0;
+    border-radius: 5px;
+}

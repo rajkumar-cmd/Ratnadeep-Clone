@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 11rem;
+  margin-right: 11.5rem;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(90deg, rgba(198,196,255,1) 0%, rgba(255,220,161,1) 100%, rgba(0,212,255,1) 100%);
+  border-radius: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+.heading > div {
+  display: flex;
+  align-items:last baseline;
+  gap: 1rem;
+}
+.heading > div> h1{
+    font-size: 32px;
+    margin: 0;
+}
+.heading > div> h2{
+    font-size: 20px;
+    margin: 0;
+    color: rgb(70, 69, 69);
+}
+.heading > p{
+    font-size: 20px;
+}
+
+.mobileHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(90deg, rgba(81, 221, 221, 0.743) 0%, rgba(255,255,255,1) 100%, rgba(255,220,161,1) 100%);
+  border-radius: 5px;
+  box-shadow: rgba(17, 15, 15, 0.253) 0px 0px 0px 1px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: rgb(28, 70, 70);
+  margin-top: 0.5rem;
+}
+.mobileHeading > div> h1{
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 0;
+    text-align: start;
+}
+.mobileHeading > div> h2{
+    font-size: 12px;
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.mobileHeading > p{
+    font-size: 13px;
+    font-weight: 600;
+}

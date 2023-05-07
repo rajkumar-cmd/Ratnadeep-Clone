@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.2rem;
+    margin-right: 6.2rem;
+    margin-top: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navbarLeft{
+    display: flex;
+    gap: 8rem;
+}
+.navbarLeft>img{
+    width: 4.3rem;
+}
+.navbarLeft>div{
+    width: 300px;
+    margin-top: 0.2rem;
+}
+.navbarLeft>div>div{
+    display: flex;
+    gap: 1rem;
+}
+.navbarLeft>div>div>p{
+    margin: 0;
+}
+.navbarLeft>div>div:nth-child(1)>p{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+}
+.navbarLeft>div>div:nth-child(2){
+    margin-left: 2rem;
+}
+.navbarLeft>div>div:nth-child(2)>p{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbarRight{
+    display: flex;
+    gap: 1.7rem;
+}
+.navbarRight>div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navbarRight>div>p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbarRight>div:nth-child(3){
+    margin-top: 0.8rem;
+    height: 1rem;
+    padding: 0.8rem 1rem;
+    background-color: #ea3639;
+    border-radius: 4px;
+}
+.navbarRight>div:nth-child(3)>p{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 5px;
+}
+.MasterNavbarMobile{
+    background-color: #2e3192;
+    padding-bottom: 0.05rem;
+}
+.navbarMobile{
+    display: flex;
+    gap: 2rem;
+    padding-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navbarMobile>div>div{
+    display: flex;
+    align-items: center;
+}
+.navbarMobile>div>div:nth-child(1)>p{
+    font-size: 11px;
+    margin: 0;
+    width: 13rem;
+    text-align: start;
+    color: white;
+    margin-left: 0.3rem;
+}
+.navbarMobile>div>div:nth-child(2)>p{
+    font-size: 13px;
+    margin: 0rem;
+    width: 13rem;
+    line-height: 1.2rem;
+    text-align: start;
+    color: white;
+}
+.navbarMobile>img{
+    margin-left: 0.5rem;
+    width: 3rem;
+    margin-top: 0.2rem;
+}
+.navbarMobile>.avatar{
+    margin-top:0;
+    width: 1.8rem;
+}
+.navbarSearch{
+    background-color: #f2f2f8ea;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.1rem 1rem;
+    padding-left: 1rem;
+    margin: 0.5rem;
+    margin-top: 1.3rem;
+    border-radius: 5px;
+}
+.navbarSearch>p{
+    margin: 0.5rem;
+    font-size: small;
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+}

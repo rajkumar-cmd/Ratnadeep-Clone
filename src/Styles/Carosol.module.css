@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.promo {
+  margin-left: 11rem;
+  margin-right: 11.5rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.TodayCarosol {
+  border: 0.5px solid rgb(214, 214, 214);
+}
+.topToday {
+  display: flex;
+  justify-content: space-between;
+}
+.topToday > p {
+  background-color: #34c58f;
+  color: white;
+  padding: 0.3rem 3rem;
+  font-size: small;
+  border-radius: 0px 5px 5px 0px;
+}
+.TodayName {
+  text-align: start;
+  margin-left: 1rem;
+}
+.TodayDis {
+  color: #f34548;
+  text-align: start;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: small;
+}
+.TodayPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.TodayPrice > div {
+  text-align: start;
+  margin-left: 1rem;
+}
+.TodayPrice > div > p:nth-child(1) {
+  margin-top: 5px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.TodayPrice > div > p:nth-child(2) {
+  margin-top: 0;
+  font-size: small;
+  color: gray;
+  text-decoration: line-through;
+}
+.TodayPrice > p {
+  margin-top: 0;
+  border: 0.5px solid rgb(219, 219, 219);
+  padding: 0.5rem 1.7rem;
+  color: #f34548;
+  font-weight: 600;
+}
+.TodaySaving {
+  font-size: 12px;
+  color: #34c58f;
+  margin-top: 0;
+  text-align: start;
+  margin-left: 1rem;
+}
+.promoMobile {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.TodayCarosolMobile {
+  border: 0px;
+  margin-left: 0.5rem;
+}
+.TodayNameMobile {
+  text-align: start;
+  margin-left: 0.4rem;
+  font-size: small;
+  color: black;
+}
+.TodayDisMobile {
+  text-align: start;
+  margin-top: 0;
+  margin-left: 0.4rem;
+  font-size: small;
+}
+.TodayPriceMobile>div{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.TodayPriceMobile > div > p:nth-child(1) {
+  margin: 0;
+  font-weight: 700;
+  margin-left: 0.4rem;
+  font-size: 12px;
+}
+.TodayPriceMobile > div > p:nth-child(2) {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+  text-decoration: line-through;
+}

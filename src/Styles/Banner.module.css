@@ -1,0 +1,15 @@
+.banner{
+    display: flex;
+    gap: 1rem;
+    margin-left: 11rem;
+    margin-right: 11.5rem;
+}
+.banner>img{
+    width: 31.5rem;
+}
+.mobileBanner{
+    margin-top: 1rem;
+}
+.mobileBanner>img{
+    width: 95%;
+}
